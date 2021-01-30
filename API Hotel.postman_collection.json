@@ -1,0 +1,269 @@
+{
+	"info": {
+		"_postman_id": "a84b0f95-fe44-4306-ab7d-5df007c528f0",
+		"name": "API Hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener Habitaciones",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMmM0ZjgwMWE5NWRjOGU1ODQzYjcxNmZiOWI5Nzg4OTkxN2JkMmRjMjUxZGIwNzQ1MGIzOWZjZDRiOGIzNmY0NzYxMDk2NDE3YmJhMjIzYjkiLCJpYXQiOiIxNjEyMDI0MjQ4LjAwNzAxNSIsIm5iZiI6IjE2MTIwMjQyNDguMDA3MDI1IiwiZXhwIjoiMTY0MzU2MDI0Ny43MjAwNDEiLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UEBpgr5h5VQJ1StCDcqdbyGCvm97kD3YUvB2lIPNqlN5I7KrYAWU021jr1Ho1GVnVqDzz8c6Ei15Ld5W8ig1EhE20KlmybUc9WwbUkE4i8uBYDNO3MZTo7iVD4tibVmbruwa3CTVSFe295xQ5nU_HwzIvxX4Fn4YjBNYtRq7EYIaNLb3AuDrlf_hIHgjXIbNSnotQFNiP_VD1YnPDgUNAGBoXLZMvbdSPqbB8fDsgKS0uxwC86UKoKVynD-7unsn5NxJ89167iEqpZ1Rt8W6VENg3bEbABs3cMwb2EG_12_zf8LwdD284bEBcAZSnUhnhAmPT2-UXJ5rfnS7Maf_wb2Bss6kL62VfZuYXWvtidjcIdg9e6UGPmma95hS8e7huN-_-i26h3ggTfLca4RHK20JKMQ_RUgzfN-i6hvhK5Ly_EwrEYN7ivoZ0sjZ8wVdNF4EjbNx_yRvN9HYlOfWOkIjPOaWiN71YglIZIDBgoZWeecLTPbKN7e_1yNOHIdQPMag8P9H4CFs0RsdetivCWicgIT7k0zODtKtJFgtzH3faUFu_k9tm8BVIOBfiSwf_5PE4YSRhQdVwl3gH39OG2uOHebMidaztaJcDvlN0N4REetu7Z3cwQREE_08AC88YXTncO6NFqfXuJ_8I0FTejP-EiRYsJzsxyQroBqBAEs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/habitaciones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"habitaciones",
+						""
+					]
+				},
+				"description": "Obtengo todas las habitaciones"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Habitaciones",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGFhYjY0MWU0OGE2ZTNjOGVjNGVmOGNhMGYyMzAwMWUwZDhiYzVmMWNhMjcxZmE1NWU3YjU1NTdhZWM5YmI4M2I0YjZkMWExNWUzNWI5ZjAiLCJpYXQiOiIxNjExOTc0MTI0LjQxNTU0NyIsIm5iZiI6IjE2MTE5NzQxMjQuNDE1NTUxIiwiZXhwIjoiMTY0MzUxMDEyNC40MTAwNTYiLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.QtV7UMP6-tWucj70kPlfyViakFXF-HMfhxv78yAWKDyYNYuw-c-_yNU21esJDimcwUTLPsRZKZoZCGtBkMyCI5tKAgse34Seb9GfK-FSgCDweZC4ZX5KNa315UHoBZ88wgWfAfIDPcLhz0Hya1WqCKpL2rdbaILeKXCzE0Ke4rYRqtfapR-uTsPLALy5T39Am0Oksg4kDShlFaTfXMXfuphRJphMAynT02FnWG6RWy5wqFGwBge6CoLPIXnF0pAqZl1q58nE0Pp6FhmtL-7ZkZ3XqWDTrEzKr3kOGB3RiPzSPWwpUTrKqJ5heVvg9D5Dlota7wlvDslftjtmXY6vmuAErs3eUxJOeh1kgj0KGSUEyFZSh49bDLKi7M0-O9fS6-PsjwwcBl6LmnjtJfPiCIRr_i8m2n3OeZxAPwk_gu0UBexlcNt5KrAF9s1snIOGaeAmvMp6r09bbyEjbnYj4mJRcHyc8P4I-BpfLrxyW6WZTTmSk9rReNpb_DduYt7lVWUY6RQ0CLa0cDCJV9F_6qTSz8da5EwqwAnPO-lwKAV2d7LswBDMjkwiJ8fW3pmfbqxqbALnWA9fBcjvebDAgt_3gYs0_AZN4zc4qbSk6MZx1tefuBTnE7VAtxwb0oVPv1ZSwZjhU-8w4Tf-jFOzzdik7WKepEq4ki2FRQimYIU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipo_habitacion_id\": 10,\r\n    \"nombre\": \"Habitacion 100\",\r\n    \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/habitaciones/10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"habitaciones",
+						"10"
+					]
+				},
+				"description": "Modificar los datos de las habitaciones"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jose Rodriguez\",\r\n    \"email\": \"xjoserodriguezx@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"edit\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/users/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				},
+				"description": "Crear nuevo usuario"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Usuario",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNGYxZTFlYWQwNTRiMGExZGJiYTQwNTFhZDdmNTc1MmIyYWQ5ZjJkZWY4NGU2NzYzM2M1YWM3ZGViNTE0ZTQ5NmM1Njk1Y2Q4ZjI4MTFjNDEiLCJpYXQiOiIxNjExOTczMjQ0LjQwOTM3NCIsIm5iZiI6IjE2MTE5NzMyNDQuNDA5Mzc3IiwiZXhwIjoiMTY0MzUwOTI0NC40MDE5MjEiLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.AD4ulMC96N_KCjF6CnnZvwWNSCgy2E7LprAqn_crRCwHCEVH5xp7lV29uf-Vpe0FkgfCoF5NXotHYQXa1h_ptyihya_Yh7hq17-4hD9iD__W-7ZZjFvJZaWHouSySKo1deiSEPIynHFCJWiB3FBl9GqyoEX3o3LhDx839vgKQUbWo79MWcMQDYrHrR6F-MTYl_zjyZuX7iK1sRYJ9JFO4SthSaLcxdq2fCoIfODUMxdkYl7kOZ7LkXCCzRC8qiiolNYlS-4GkFH2u5BGNtiqaaiu3_PREr2bvxgDqO9ElhfV4nDTTcj4wBVXLR1GB7wIpoBRVHj_MFZdrZ7z7nac4lyiAkNHR2E6aO1upjwsVP1IXwmoo1_1lUssnRGnJ5Kb6mCPpmg-scCMgLHjoUHDzErXP10SF1d0mxRJNo8WqqhKfOSq7kD24Vf3OnUZo78zeI4fifMmiiFxD5hGXhhfF4jtCOvgFNHrTnBFOmtzYl6UiKVU8UPphabLjjBQ14Iv15CQJtaTFgGG_jALZFcjCoZCopuBqcCm3ZSAudS1fxYI4-Q36SmQSbssL9wED6Nsx46CP4aqwfH0inXCTrh3t5_euZQ5pzkPo6pakLmqZSTdQ-s0YSto3DFDnKX-yjLDAFgXh_0pxRp65TpOvOXmWp_g9SoKgA9nyQqCi7mIpkM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jose Rodriguez\",\r\n    \"email\": \"xjoserodriguezx@hotmail.com\",\r\n    \"password\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/users/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				},
+				"description": "Modifica los datos de los usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "Iniciar Sesion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"admin@example.com\",\r\n    \"password\": \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "Valida el inicio de sesion"
+			},
+			"response": []
+		},
+		{
+			"name": "Cerrar Sesion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGFhYjY0MWU0OGE2ZTNjOGVjNGVmOGNhMGYyMzAwMWUwZDhiYzVmMWNhMjcxZmE1NWU3YjU1NTdhZWM5YmI4M2I0YjZkMWExNWUzNWI5ZjAiLCJpYXQiOiIxNjExOTc0MTI0LjQxNTU0NyIsIm5iZiI6IjE2MTE5NzQxMjQuNDE1NTUxIiwiZXhwIjoiMTY0MzUxMDEyNC40MTAwNTYiLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.QtV7UMP6-tWucj70kPlfyViakFXF-HMfhxv78yAWKDyYNYuw-c-_yNU21esJDimcwUTLPsRZKZoZCGtBkMyCI5tKAgse34Seb9GfK-FSgCDweZC4ZX5KNa315UHoBZ88wgWfAfIDPcLhz0Hya1WqCKpL2rdbaILeKXCzE0Ke4rYRqtfapR-uTsPLALy5T39Am0Oksg4kDShlFaTfXMXfuphRJphMAynT02FnWG6RWy5wqFGwBge6CoLPIXnF0pAqZl1q58nE0Pp6FhmtL-7ZkZ3XqWDTrEzKr3kOGB3RiPzSPWwpUTrKqJ5heVvg9D5Dlota7wlvDslftjtmXY6vmuAErs3eUxJOeh1kgj0KGSUEyFZSh49bDLKi7M0-O9fS6-PsjwwcBl6LmnjtJfPiCIRr_i8m2n3OeZxAPwk_gu0UBexlcNt5KrAF9s1snIOGaeAmvMp6r09bbyEjbnYj4mJRcHyc8P4I-BpfLrxyW6WZTTmSk9rReNpb_DduYt7lVWUY6RQ0CLa0cDCJV9F_6qTSz8da5EwqwAnPO-lwKAV2d7LswBDMjkwiJ8fW3pmfbqxqbALnWA9fBcjvebDAgt_3gYs0_AZN4zc4qbSk6MZx1tefuBTnE7VAtxwb0oVPv1ZSwZjhU-8w4Tf-jFOzzdik7WKepEq4ki2FRQimYIU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/logout",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
+				},
+				"description": "Cierra la sesion del usuario segun activo segun su token"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
