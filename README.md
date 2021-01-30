@@ -14,9 +14,9 @@ Es una API desarrollada en Laravel 8 y MySQL. En su primera version permite:
 - Descargar o clonar este proyecto en su equipo local.
 - Ejecutar los migrates y seeders del proyecto. Para cargar los datos de prueba.
 
--Para ejecutar las migrate <code>php artisan migrate</code>
+-Para ejecutar las migrate <code><strong>php artisan migrate</strong></code>
 
--Para ejecutar las seeders <code>php artisan db:seed</code>
+-Para ejecutar las seeders <code><strong>php artisan db:seed</strong></code>
 
 - Descargar Postman, que es una plataforma para el desarrollo y prueba de APIs.
 - Descargar postman aca [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
