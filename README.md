@@ -13,12 +13,14 @@ Es una API desarrollada en Laravel 8 y MySQL. En su primera version permite:
 
 - Descargar o clonar este proyecto en su equipo local.
 - Ejecutar los migrates y seeders del proyecto. Para cargar los datos de prueba.
+- Para ejecutar las migrate <code><strong>php artisan migrate</strong></code>
+- Para ejecutar las seeders <code><strong>php artisan db:seed</strong></code>
+- Abrir el software o extension de su preferencia probar la API
+- Iniciar sesion con el usuario por defecto <code><strong>admin@example.com</strong></code> y la contrasena <code><strong>password</strong></code> para obtener el token de autentificacion.
+- Tomar la ruta corresponidente a la funcion que desea probar y agregue los parametros requeridos segun sea el caso.
+- Recuerde de incluir el token <code><strong>Authorization: Bearer 'token_generado'</strong></code> en la seccion de HEADERS del probador de APIs.
 
--Para ejecutar las migrate <code><strong>php artisan migrate</strong></code>
-
--Para ejecutar las seeders <code><strong>php artisan db:seed</strong></code>
-
-## Para probar la API con Postman (Opcional)
+## Para probar la API con Postman (Recomendado)(Opcional)
 
 - Descargar Postman, que es una plataforma para el desarrollo y prueba de APIs.
 - Descargar postman aca [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
