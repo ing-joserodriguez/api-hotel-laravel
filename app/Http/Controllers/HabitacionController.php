@@ -20,7 +20,7 @@ class HabitacionController extends Controller
     {
         /*
             Nombre: Jose Rodriguez
-            Fecha: 28-01-2021
+            Fecha: 29-01-2021
             Obtengo los datos de las habitaciones, y de los clientes de manera separada,
             dejando la columna 'habitacion_id' como punto de asociacion entre ambos objetos.
         */
@@ -34,7 +34,7 @@ class HabitacionController extends Controller
 
         /*
             Nombre: Jose Rodriguez
-            Fecha: 28-01-2021
+            Fecha: 29-01-2021
             Recorro los objetos obtenidos anteriormente, y mediante la columna 'habitacion_id' los
             relaciono entre si. Al objeto 'habitaciones' le asigno la informacion de los clientes
             que corresponda, usando el indice 'key' correspondiente a la iteracion.
@@ -100,6 +100,14 @@ class HabitacionController extends Controller
      */
     public function update(Request $request, $id)
     {
+        /*
+            Nombre: Jose Rodriguez
+            Fecha: 29-01-2021
+            Obtengo la informacion del usuario logueado y verifico si tiene permiso para editar.
+            Si esta habilitado para realizar la operacion continua con el proceso normalmente. De lo
+            contrario no se procesan los cambios y retorno un mensaje indicando que no tiene el permiso
+            para modificar los datos.
+        */
         $user = auth()->user();
         if($user->edit)
         {
