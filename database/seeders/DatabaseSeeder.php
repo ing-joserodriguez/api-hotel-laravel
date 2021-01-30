@@ -18,7 +18,9 @@ class DatabaseSeeder extends Seeder
             TipoHabitacionSeeder::class,
             ClienteSeeder::class,
             HabitacionSeeder::class,
-            ReservacionSeeder::class
+            ReservacionSeeder::class,
+            oauthClientSeeder::class,
+            oauthPersonalAccessClients::class
         ]);
     }
 }
