@@ -18,6 +18,8 @@ Es una API desarrollada en Laravel 8 y MySQL. En su primera version permite:
 
 -Para ejecutar las seeders <code><strong>php artisan db:seed</strong></code>
 
+## Para probar la API con Postman (Opcional)
+
 - Descargar Postman, que es una plataforma para el desarrollo y prueba de APIs.
 - Descargar postman aca [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 - Instalar postman, abrirlo e importar el archivo de coleccion <code><strong>API Hotel.postman_collection.json</strong></code>  que esta en la raiz de este proyecto.
